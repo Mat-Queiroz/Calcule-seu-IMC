@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root{
+    --cor1: #501f96;
+    --cor2: #482080;
+    --cor3: #f2f2f2;
+    --cor4: #4EAD65;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.bg{
+    background-color: var(--cor1);
+}
+
+.container {
+    max-width: 640px;
+    margin: 20px auto;
+    background: var(--cor3);
+    padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #4EAD65;
+}
+
+div{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.div2{
+    margin-left: 35%;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+p{
+    font-size: medium;
+}
+
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+form input {
+    font-size: 20px;
+    height: 30px;
+    padding: 15 2px;
+}
+
+form input:focus {
+    outline: 1px solid var(--cor4);
+}
+
+form button {
+    border: none;
+    background: var(--cor1);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #4EAD65;
+}
+
+form button:hover {
+    background: var(--cor2);
+}
+
+.paragrafo-resultado{
+    align-content: center;
+    background: #64db82;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+div.resultado{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+}
